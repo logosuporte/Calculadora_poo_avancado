@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/02/25 18:51:57.000.716,=C:\Users\logo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 08:48:53.822,=C:\Users\logo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 08:51:12.251,C:\LogoInformatica\Treinamentos\POO\Calculadora\View.Pincipal.pas=C:\Users\logo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 08:51:12.251,C:\LogoInformatica\Treinamentos\POO\Calculadora\View.Pincipal.dfm=C:\Users\logo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/01/28 08:51:30.830,C:\LogoInformatica\Treinamentos\POO\Calculadora\CalculadoraPOO.dproj=C:\Users\logo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/01/28 08:53:37.265,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 08:59:39.092,C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Calculadora.pas=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 11:27:13.877,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 11:27:36.080,C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Soma.pas=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 11:29:35.982,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Dividir.pas</Transaction>
+    <Transaction>2022/01/28 11:29:36.002,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Multiplicar.pas</Transaction>
+    <Transaction>2022/01/28 11:29:36.035,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Subtrair.pas</Transaction>
+    <Transaction>2022/01/28 11:30:10.581,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 11:30:47.028,C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Calculadora.interfaces.pas=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 11:32:15.004,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 11:32:42.744,C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.classs.Helper.pas=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 12:22:16.639,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 12:22:43.145,C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Operacoes.pas=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 12:23:19.740,C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Calculadora.Operacoes.pas=C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Operacoes.pas</Transaction>
+    <Transaction>2022/01/28 13:48:52.058,C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Somar.pas=C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Model.Soma.pas</Transaction>
+    <Transaction>2022/01/28 14:22:43.281,=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/01/28 14:23:18.774,C:\LogoInformatica\Treinamentos\POO\Calculadora\Model\Calculadora.Eventos.pas=C:\LogoInformatica\Treinamentos\POO\Calculadora\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

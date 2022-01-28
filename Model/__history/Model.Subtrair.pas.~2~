@@ -1,0 +1,46 @@
+unit Model.Subtrair;
+
+interface
+uses Model.Calculadora.interfaces;
+Type
+  TSubtrair = Class(TInterfacedObject,iOperacoes)
+  public
+    Constructor Create;
+    Destructor  Destroy; override;
+    class function New: iOperacoes;
+    function Operacao(Num1,Num2: double):Double; overload;
+    function Operacao(Num1,Num2: String):string; overload;
+  End;
+
+
+implementation
+{ Tsubtrair }
+
+constructor Tsubtrair.Create;
+begin
+
+end;
+
+destructor Tsubtrair.Destroy;
+begin
+
+  inherited;
+end;
+
+class function Tsubtrair.New: iOperacoes;
+begin
+  Result := Self.Create;
+end;
+
+function Tsubtrair.Operacao(Num1, Num2: String): string;
+begin
+  Result := (Num1.ToCurrency - Num2.ToCurrency).ToString;
+end;
+
+function Tsubtrair.Operacao(Num1, Num2: double): Double;
+begin
+  Result := Num1 -  Num2;
+end;
+
+
+end.

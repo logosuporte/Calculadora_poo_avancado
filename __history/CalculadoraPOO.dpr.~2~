@@ -1,0 +1,15 @@
+program CalculadoraPOO;
+
+uses
+  Vcl.Forms,
+  View.Pincipal in 'View.Pincipal.pas' {FrmPrincipal},
+  Model.Calculadora in 'Model\Model.Calculadora.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.Run;
+end.

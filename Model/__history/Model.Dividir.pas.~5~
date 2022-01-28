@@ -1,0 +1,43 @@
+unit Model.Dividir;
+
+interface
+uses Model.Calculadora.interfaces,System.SysUtils, Model.Calculadora.Operacoes;
+
+Type
+  TDividir = Class sealed (TOperacoes)
+  public
+    Constructor Create;
+    Destructor  Destroy; override;
+    class function New: iOperacoes;
+    function Executar:string;override;
+  End;
+
+
+implementation
+{ TDividir }
+
+constructor TDividir.Create;
+begin
+
+end;
+
+destructor TDividir.Destroy;
+begin
+
+  inherited;
+end;
+
+function TDividir.Executar: string;
+begin
+
+  inherited;
+end;
+
+class function TDividir.New: iOperacoes;
+begin
+  Result := Self.Create;
+end;
+
+
+
+end.

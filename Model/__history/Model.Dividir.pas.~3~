@@ -1,0 +1,49 @@
+unit Model.Dividir;
+
+interface
+uses Model.Calculadora.interfaces,System.SysUtils;
+
+Type
+  TDividir = Class(TInterfacedObject,iOperacoes)
+  public
+    Constructor Create;
+    Destructor  Destroy; override;
+    class function New: iOperacoes;
+    function Operacao(Num1,Num2: double):Double; overload;
+    function Operacao(Num1,Num2: String):string; overload;
+  End;
+
+
+implementation
+{ TDividir }
+
+constructor TDividir.Create;
+begin
+
+end;
+
+destructor TDividir.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TDividir.New: iOperacoes;
+begin
+  Result := Self.Create;
+end;
+
+function TDividir.Operacao(Num1, Num2: String): string;
+begin
+  Result := CurrToStr(Num1.ToDouble / Num2.ToDouble);
+end;
+
+function TDividir.Operacao(Num1, Num2: double): Double;
+begin
+  if Num2 <= 0 then
+    raise Exception.Create('Error Divisão por ZERO');
+  Result := Num1 /  Num2;
+end;
+
+
+end.

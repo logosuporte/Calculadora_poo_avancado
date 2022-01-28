@@ -1,0 +1,48 @@
+unit Model.Multiplicar;
+
+interface
+
+uses Model.Calculadora.interfaces;
+Type
+  TMultiplicar = Class(TInterfacedObject,iOperacoes)
+  public
+    Constructor Create;
+    Destructor  Destroy; override;
+    class function New: iOperacoes;
+    function Operacao(Num1,Num2: double):Double; overload;
+    function Operacao(Num1,Num2: String):String; overload;
+  End;
+
+
+implementation
+
+{ TMultiplicar }
+
+constructor TMultiplicar.Create;
+begin
+
+end;
+
+destructor TMultiplicar.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TMultiplicar.New: iOperacoes;
+begin
+  Result := Self.Create;
+end;
+
+function TMultiplicar.Operacao(Num1, Num2: String): string;
+begin
+  Result := (Num1.ToCurrency * Num2.ToCurrency).ToString;
+end;
+
+function TMultiplicar.Operacao(Num1, Num2: double): Double;
+begin
+  Result := Num1 *  Num2;
+end;
+
+
+end.

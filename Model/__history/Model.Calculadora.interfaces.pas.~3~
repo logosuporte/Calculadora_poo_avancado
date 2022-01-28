@@ -1,0 +1,23 @@
+unit Model.Calculadora.interfaces;
+
+interface
+type
+
+  iOperacoes  = interface
+  ['{79F6C3B1-3717-4DFF-BB33-8DDFF8ED930C}']
+    function Operacao(Num1,Num2: double):Double; overload;
+    function Operacao(Num1,Num2: String):string; overload;
+  end;
+
+  iCalculadora = interface
+  ['{AB230511-9506-4258-A23A-0BFA1F4A2A5A}']
+    function Somar: iOperacoes;
+    function Subtrair: iOperacoes;
+    function Dividir: iOperacoes;
+    function Multiplicar: iOperacoes;
+  end;
+
+
+implementation
+
+end.

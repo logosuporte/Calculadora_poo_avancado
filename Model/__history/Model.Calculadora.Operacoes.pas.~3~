@@ -1,0 +1,23 @@
+unit Model.Calculadora.Operacoes;
+
+interface
+
+uses Model.Calculadora.interfaces,System.Generics.Collections;
+Type
+  TOperacoes = class(TInterfacedObject,iOperacoes)
+  protected
+    FLista: TList<Double>;
+  public
+    function Executar:String; virtual;
+  end;
+
+implementation
+
+{ TOperacoes }
+
+function TOperacoes.Executar: String;
+begin
+  FLista.Clear;
+end;
+
+end.

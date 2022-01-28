@@ -1,0 +1,42 @@
+unit Model.Calculadora.Operacoes;
+
+interface
+
+uses Model.Calculadora.interfaces,System.Generics.Collections,
+  Calculadora.Eventos;
+Type
+  TOperacoes = class(TInterfacedObject,iOperacoes,iCalculadoraDisplay)
+  protected
+    FLista: TList<Double>;
+  public
+    function Executar:String; virtual;
+    function Display:iOpercaoDisplay;
+    function Resultado(Value:TEvDisplayTotal):iOpercaoDisplay;
+    function EndDisplay:iOperacoes;
+  end;
+
+implementation
+
+{ TOperacoes }
+
+function TOperacoes.Display: iOpercaoDisplay;
+begin
+  Result := Self;
+end;
+
+function TOperacoes.EndDisplay: iOperacoes;
+begin
+  Result := Self;
+end;
+
+function TOperacoes.Executar: String;
+begin
+  FLista.Clear;
+end;
+
+function TOperacoes.Resultado(Value: TEvDisplayTotal): iOpercaoDisplay;
+begin
+
+end;
+
+end.

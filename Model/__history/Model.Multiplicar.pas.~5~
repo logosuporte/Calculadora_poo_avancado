@@ -1,0 +1,43 @@
+unit Model.Multiplicar;
+
+interface
+
+uses Model.Calculadora.interfaces,System.SysUtils, Model.Calculadora.Operacoes;
+Type
+  TMultiplicar = Class sealed (TOperacoes)
+  public
+    Constructor Create;
+    Destructor  Destroy; override;
+    class function New: iOperacoes;
+    function Executar:string;override;
+  End;
+
+
+implementation
+
+{ TMultiplicar }
+
+constructor TMultiplicar.Create;
+begin
+
+end;
+
+destructor TMultiplicar.Destroy;
+begin
+
+  inherited;
+end;
+
+function TMultiplicar.Executar: string;
+begin
+
+  inherited;
+end;
+
+class function TMultiplicar.New: iOperacoes;
+begin
+  Result := Self.Create;
+end;
+
+
+end.
